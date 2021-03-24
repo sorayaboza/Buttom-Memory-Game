@@ -1,0 +1,63 @@
+/* CSS files add styling rules to your content */
+/* This is the background color and the text color! */
+body {
+  font-family: Trebuchet MS, arial, sans-serif;
+  margin: 2em;
+  background-color: rgb(41, 42, 80);
+  color: rgb(252, 242, 223); 
+}
+
+h1 {
+font-family: Verdana, arial, sans-serif; 
+}
+/* This is my button! */
+button{
+color: rgb(41, 42, 80) 
+background-color: rgb(252, 242, 223);
+font-family: Trebuchet MS, arial, sans-serif;
+padding: 10px;
+border-radius: 10px;
+}
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:5px;
+}
+.hidden { /* This hides the stop button!*/
+  display: none;
+}
+/* These are our four buttons!
+Images are from Unsplash.*/
+#button1 {
+  /* Image credit: Lawrence Kayku*/
+    background-image: url(https://cdn.glitch.com/6dbc2766-c6b9-4ba6-8aea-2fc3c4c2e2d3%2Fgreen.jfif?v=1616612647459); /* green */
+    background-size: 295px;
+}
+#button2 {
+  /* Image credit: Vince Fleming*/
+    background-image: url(https://cdn.glitch.com/6dbc2766-c6b9-4ba6-8aea-2fc3c4c2e2d3%2Fblue.jfif?v=1616613083851); /* blue */
+    background-size: 295px;
+}
+#button3 {
+   /* Image credit: Marek Okon */
+    background-image: url(https://cdn.glitch.com/6dbc2766-c6b9-4ba6-8aea-2fc3c4c2e2d3%2Fred.jfif?v=1616613877568); /* red */
+    background-size: 295px;
+}
+#button4 {
+    background-image: url(https://cdn.glitch.com/6dbc2766-c6b9-4ba6-8aea-2fc3c4c2e2d3%2Fyellow.jfif?v=1616614205327); /* yellow */
+    background-size: 350px;
+}
+
+/* These are when our buttons are activated! */
+#button1:active, #button1.lit {
+    background:rgb(156, 247, 180);
+}
+#button2:active, #button2.lit {
+    background:rgb(115, 217, 255);
+}
+#button3:active, #button3.lit {
+    background:rgb(253, 181, 179);
+}
+#button4:active, #button4.lit {
+    background:rgb(255, 242, 196);
+}
