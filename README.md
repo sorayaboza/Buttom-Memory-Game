@@ -42,9 +42,6 @@ Here's a walkthrough of implemented user stories:
 <img src ="http://g.recordit.co/Jtw52KIJYV.gif" width = 250><br>
 
 
-<img src ="http://g.recordit.co/LxfBUW4vqO.gif" width = 250><br>
-
-
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 * I used https://www.w3schools.com/colors/colors_rgb.asp to find out how I could give myself more colors to work with for the background and buttons and such.
